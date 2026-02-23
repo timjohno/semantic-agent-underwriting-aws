@@ -33,6 +33,6 @@ class MockInsurancePremiumEstimator:
         return {
             "estimated_insurance_premium": round(premium, 2),
             "currency": "GBP",
-            "service_used": self.runtime,
+            "service_used": "sagemaker-runtime",
             "model_used": self.endpoint_name 
         }
